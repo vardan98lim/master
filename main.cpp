@@ -40,11 +40,13 @@ main() {
             int firstColorDigit = number % 4;
             std::cout << "First color is ";
             outColor(thirdColorDigit);
-            std::cout << "second color is ";
+            std::cout << std::endl;
+            std::cout << "Second color is ";
             outColor(secondColorDigit);
+            std::cout << std::endl;
             std::cout << "Third color is ";
             outColor(firstColorDigit);
-            std::cout << firstColorDigit<<secondColorDigit<<thirdColorDigit<< 28%4 <<  std::endl;
+            std::cout << std::endl;
             return 0;
         }
         case 2: {
